@@ -1,7 +1,7 @@
 
 input('Do you want to start? : press enter key ')
 
-def account_name(): # 1 name example: PiMiner
+def account_name(): # 1 name example: VincenzoCristallo
     print('Type in the account_name : ')
     name = input('Name : ')
     print('This is the Name : ' + name)
@@ -19,7 +19,7 @@ account_id()
 
 def account_email(): # 3 email example: gets created automatically tru other function()
     print('Type in the account_email : ')
-    email = input('Email : ') # account_name + account_id + '@proton.me'    <----<------<-----<----   IMPORTENT!!!!! MAYOR CHANGES NEEDED!!!!!
+    email = input('Email : ') # account_name + account_id + '@example.com'    <----<------<-----<----   IMPORTENT!!!!! MAYOR CHANGES NEEDED!!!!!
     print('This is the Email : ' + email)
     
     
